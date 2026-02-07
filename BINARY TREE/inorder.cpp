@@ -64,7 +64,6 @@ void inorder(node* root){
     cout<<root->data<<" ";
     inorder(root->right);
 }
-
 void preorder(node* root){
     if(root == NULL){
         return;
@@ -73,7 +72,6 @@ void preorder(node* root){
     preorder(root->left);
     preorder(root->right);
 }
-
 void postorder(node* root){
     if(root == NULL){
         return;
